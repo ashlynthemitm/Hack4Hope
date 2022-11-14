@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+
+<head>
+ 
+    <link rel="stylesheet" href="style.css"/>
+    <title>Home Page</title>
+    
+    
+</head>
+
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Help</a>
+        <ul>
+            <li><a href="transpor.html">Transportation</a></li>
+            <li><a href="med_social.html">Medical</a></li>
+            <li><a href="food.html">Food</a></li>
+        </ul> 
+    </ul>
+    <br>
+    <div class = "main"> Hope4Community </div>
+    
+ 
+    <h3 style="color: white">Find Places to Stay Near You</h3>
+ 
+    <!-- Demo is for a New York City Example-->
+     
+    
+    <form action="#">
+        
+
+            <p style="color: white">
+                <label>Location
+                    <input list="cities" name="city" /></label>
+                    <datalist id="cities">
+                    <option value="District of Columbia"></option>
+                    <option value="Los Angeles City">
+                    <option value="Metropolitan Denver"></option>
+                    <option value="New York City">
+                    <option value="San Diego City"></option>
+                    <option value="Seattle/King County">
+                    
+                    </datalist>
+            </p>
+    
+            <p style="color: white">
+                <label>Check In : <input type="date" name="check_in"></label>
+                <label>Check Out : <input type="date" name="check_out"></label>
+            </p>
+
+            <p style="color: white">ADULTS
+            <select name = "adult_amt" > 
+            <option value="value0">0</option>
+             <option value="value1">1</option>
+                <option value="value2">2</option>
+                <option value="value3">3</option>
+                <option value="value4">4</option>
+                <option value="value5">5</option>
+                <option value="value6">6</option>
+            </select> </p>
+
+
+            <p style="color: white">CHILDREN
+                <select name = "child_amt" > 
+                <option value="value0">0</option>
+                 <option value="value1">1</option>
+                    <option value="value2">2</option>
+                    <option value="value3">3</option>
+                    <option value="value4">4</option>
+                    <option value="value5">5</option>
+                    <option value="value6">6</option>
+                </select> </p>
+            
+            
+            <p style="color: white"> 
+                Services Needed :
+                <label><input type="radio" name="food" /> Food</label>
+                <label><input type="radio" name="clothes" /> Clothes</label>
+                <label><input type="radio" name="medical" /> Medical</label>
+                <label><input type="radio" name="job" /> Job Assistance</label>
+                <label><input type="radio" name="daycare" /> Daycare</label>
+                
+            </p>
+ 
+          
+            <p style="color: white">
+                <label>Additional Needs:
+                    <br />
+                    <textarea name="info" cols="30"
+                        rows="3"></textarea>
+                </label>
+            </p>
+ 
+     
+            <p style="color: white">
+                <button type="submit">Submit</button>
+            </p>
+        
+    </form>
+
+
+
+
+</body>
+ 
+</html>
